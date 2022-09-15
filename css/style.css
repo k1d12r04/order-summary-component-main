@@ -53,7 +53,8 @@ button {
   width: calc(min(90%, 40rem));
   margin-inline: auto;
   text-align: center;
-  border-radius: var(--br-primary); }
+  border-radius: var(--br-primary);
+  box-shadow: 0 0 1rem .2rem rgba(0, 0, 0, 0.5); }
   .order-summary__img {
     width: 100%;
     border-top-left-radius: var(--br-primary);
@@ -107,18 +108,21 @@ button {
     cursor: pointer;
     transition: all 0.3s ease-in-out; }
     .order-summary__payBtn:hover {
-      background-color: #6363b3; }
+      background-color: #6363b3;
+      box-shadow: 0 5px .8rem 1px rgba(56, 41, 224, .5); }
   .order-summary__cancelBtn {
     width: 100%;
     padding: 1.5rem;
     border: none;
+    border-radius: 1rem;
     background-color: transparent;
     color: var(--clr-neutral-unsaturated);
     font-weight: var(--fw-bold);
     cursor: pointer;
     transition: all 0.3s ease-in-out; }
     .order-summary__cancelBtn:hover {
-      color: #000; }
+      color: #000;
+      box-shadow: 0 0 1rem .2rem rgba(0, 0, 0, 0.5); }
 
 @media only screen and (max-width: 50em) {
   body {
